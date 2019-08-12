@@ -8,6 +8,7 @@ public class WebRestController {
 
 	@RequestMapping("/")
 	public String hello() {
+		System.out.println("UPDATE!!");
 		return "Hello World!!!!";
 	}
 }
