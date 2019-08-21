@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
-@EnableJpaAuditing // JPA Auditing Ȱ��ȭ
+@EnableJpaAuditing // JPA Auditing 등록
 public class SpringAwsApplication {
 
 	public static void main(String[] args) {
